@@ -35,6 +35,7 @@ jobs:
         working-directory: terraform/files
       - name: Run audit
         run: npm audit
+        working-directory: terraform/files
 
   # We will use Snyk to perform open source code scanning of our JavaScript files
   # Ensure that you have registered for a Snyk account
